@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Remainder numbers</title>
+    <script defer>
+        function onClickRemainder(){
+            debugger;
+            var firstNumber=document.getElementById("txtFirstNumber").value;
+            var secondNumber=document.getElementById("txtSecondNumber").value;
+            var remResult=firstNumber%secondNumber
+            document.getElementById("pResult").innerHTML=remResult;
+        }
+    </script>
+</head>
+<body>
+    <label>First Number</label>
+    <input id="txtFirstNumber" type="number" placeholder="enter first number"></br>
+    <label>Second Number</label>
+    <input id="txtSecondNumber" type="number" placeholder="enter second number"></br>
+    <button id="btnRem" onclick="onClickRemainder()">Remainder</button>
+    <p id="pResult"></p>
+
+</body>
+</html>

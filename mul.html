@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <title>Multiplication numbers</title>
+    <script defer>
+        function onClickMultiplication(){
+            debugger;
+            var firstNumber=document.getElementById("txtFirstNumber").value;
+            var secondNumber=document.getElementById("txtSecondNumber").value;
+            var mulResult= firstNumber*secondNumber
+            document.getElementById("pResult").innerHTML=mulResult
+        }
+    </script>
+</head>
+<body>
+    <label>firstNumber</label>
+    <input  id="txtFirstNumber" type="Number" placeholder="enter firstNumber"></br>
+    <label>secondNumber</label>
+    <input  id="txtSecondNumber" type="Number" placeholder="enter secondNumber"></br>
+    <button id="btnmul" onclick="onClickMultiplication()">mul</button>
+    <p id="pResult"></p>
+</body>
+</html>
