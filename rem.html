@@ -4,8 +4,8 @@
     <script defer>
         function onClickRemainder(){
             debugger;
-            var firstNumber=document.getElementById("txtFirstNumber").value;
-            var secondNumber=document.getElementById("txtSecondNumber").value;
+            var firstNumber=Number(document.getElementById("txtFirstNumber").value);
+            var secondNumber= Number(document.getElementById("txtSecondNumber").value);
             var remResult=firstNumber%secondNumber
             document.getElementById("pResult").innerHTML=remResult;
         }

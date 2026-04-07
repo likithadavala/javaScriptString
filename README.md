@@ -9,4 +9,7 @@ Java Script Basics
 2.division
 3.remiander
 04-04-2026
-1.string
+1.string.html
+2.stringArray.html
+3.stringfunction.html
+

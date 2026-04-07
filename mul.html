@@ -4,8 +4,8 @@
     <script defer>
         function onClickMultiplication(){
             debugger;
-            var firstNumber=document.getElementById("txtFirstNumber").value;
-            var secondNumber=document.getElementById("txtSecondNumber").value;
+            var firstNumber=Number(document.getElementById("txtFirstNumber").value);
+            var secondNumber=Number(document.getElementById("txtSecondNumber").value);
             var mulResult= firstNumber*secondNumber
             document.getElementById("pResult").innerHTML=mulResult
         }
