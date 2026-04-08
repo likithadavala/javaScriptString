@@ -17,4 +17,10 @@ Java Script Basics
 =======
 2.stringarray.html
 3.stringfunction.html
+<<<<<<< HEAD
 >>>>>>> 69eac41468b1586bc61d81c04a8d2fa9550d5fc7
+=======
+08-04-2026
+1.even numbers
+2.prime numbers
+>>>>>>> 763f97c911ed4195c4830d9ac6be7603bc9498f3
