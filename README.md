@@ -12,3 +12,6 @@ Java Script Basics
 1.string.html
 2.stringarray.html
 3.stringfunction.html
+08-04-2026
+1.even numbers
+2.prime numbers
