@@ -2,16 +2,8 @@
 <html>
 
 <head>
-    <title>adding numbers</title>
-    <script defer>
-        function onClickAdd() {
-            debugger;
-            var firstNumber = Number(document.getElementById("txtFirstNumber").value);
-            var secondNumber = Number(document.getElementById("txtSecondNumber").value);
-            var addResult = firstNumber + secondNumber;
-            document.getElementById("pResult").innerHTML = addResult;
-        }
-
+    <title>Adding numbers</title>
+    <script src="JsFiles/Add.js" defer>
     </script>
 </head>
 
@@ -20,7 +12,7 @@
     <input type="number" id="txtFirstNumber" placeholder="enter first number"></br>
     <label>Second Number</label>
     <input id="txtSecondNumber" type="number" placeholder="enter second number"></br>
-    <button id="btnAdd" onclick="onClickAdd()">add</button>
+    <button id="btnAdd" onclick="onClickAdd()">Add</button>
     <p id="pResult"></p>
 </body>
 
