@@ -1,5 +1,5 @@
- function onclickClickMe() {
-            debugger;
-            var presult = document.getElementById("pcontent").textContent
-            alert(presult);
-        }
+function onclickClickMe() {
+    debugger;
+    var presult = document.getElementById("pcontent").textContent
+    alert(presult);
+}
