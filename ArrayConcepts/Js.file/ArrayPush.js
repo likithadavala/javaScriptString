@@ -11,8 +11,12 @@ function onClickIndexOfConcepts() {
 }
 
 function onClickSearchButton() {
-    debugger;
     var inputBox = document.getElementById("txtSearch").value;
     document.getElementById("pSearchResult").innerHTML = 
     `${inputBox} is at ${animals.indexOf(inputBox)} index`;
 }  
+function onClickLastIndexButton() {
+    var inputBox = document.getElementById("txtSearch").value;
+    document.getElementById("pSearchResult").innerHTML = 
+    `${inputBox} is at ${animals.lastIndexOf(inputBox)} index`;
+}
