@@ -52,7 +52,7 @@ function onClickConcatenate(){
     debugger;
  concateArray =animals.concat(birds);
   for(i=0; i<concateArray.length; i++){
-    concateContent=concateContent+"<p>"+(i+1) aa+"."+ concateArray[i]+"</p><br>"
+    concateContent=concateContent+"<p>"+(i+1) +"."+ concateArray[i]+"</p><br>"
   }
   document.getElementById("pConcateResult").innerHTML=concateContent;
     
