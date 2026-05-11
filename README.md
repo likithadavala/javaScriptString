@@ -16,7 +16,9 @@ We use document.getElementById() to:
 * Access specific elements easily
 * Make webpages interactive and dynamic
 **1. Primitive Data Types**
+  
 **1. Number**
+In JavaScript, Number is a data type used to store numeric values.
 Stores numbers (integer or decimal).
 1.Adding numbers
 2.Subtraction numbers
@@ -32,10 +34,10 @@ Stores numbers (integer or decimal).
 2.Strings are written with quotes
 A String in JavaScript is a data type used to store text or characters.
 #Strings are written inside:
-1.Double quotes " "
-2.Single quotes ' '
-3.Backticks ``
-
+*Double quotes " "
+*Single quotes ' '
+*Backticks ``
+1.
 
 
 
