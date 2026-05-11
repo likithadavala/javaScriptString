@@ -4,7 +4,11 @@ JavaScript is a programming language used to make websites interactive and dynam
 1.JavaScript is the programming language of the web.
 2.It can calculate, manipulate and validate data.
 3.It can update and change both HTML and CSS.
-
+In JavaScript, var, let, and const are used to declare variables.
+Variables are used to store data.
+1. "var" is the old way to declare variables.
+2. "let" is the modern way to declare variables.
+3. "const" means constant.Used for fixed values.
 JavaScript has different data types used to store different kinds of values.
 **JavaScript Data Type**
 There are mainly 2 categories:
@@ -65,17 +69,56 @@ pResult:`Hello ${name}, Welcome to ${course}`;
 It works only with strings.
 7.String Includes:
 In JavaScript, includes() is a string function used to check whether a string contains a specific word or character.
+document.getElementById("pResult").innerHTML = stringName.includes(stringSearch);
 It returns:
 * true → if the text exists
 * false → if the text does not exist
 8.String Index:
-9.String Split
-10.String Starts
-11.Strind Ends
-12.Emil Validation
-13.PDF Checker
-14.Secured Websitecheck
-15.Dot Repeat
-16.Dot Replace
+In JavaScript, indexOf() is a string function used to find the position (index) of a character or word inside a string.
+document.getElementBdocumentyId("pResult").innerHTML = stringName.indexOf(searchString);
+9.String Split:
+In JavaScript, split() is a string function used to divide a string into parts and convert it into an array.
+document.getElementById("pResult").innerHTML = stringName.split(".")[0];
+document.getElementById("pResult1").innerHTML = stringName.split(".")[1];
+10.String Starts:
+In JavaScript, startsWith() is a string function used to check whether a string starts with a specific word or character.
+document.getElementById("pResult").innerHTML = stringName.startsWith(stringSearch);
+11.Strind Ends:
+In JavaScript, endsWith() is a string function used to check whether a string ends with a specific word or character.
+document.getElementById("pResult").innerHTML = stringName.endsWith(stringSearch);
+12.Email Validation:
+Email validation is used to check whether an email format is correct or not.
+if (email.indexOf("@") < email.indexOf(".")) {
+        document.getElementById("pResult").innerHTML = "Emil is valid"
+    } else {
+        document.getElementById("pResult").innerHTML = "Email is invalid"
+    }
+13.PDF Checker:(.pdf)
+A PDF checker is used to verify whether the uploaded file is a PDF or not.
+if (fileName.endsWith(".pdf")) {
+        document.getElementById("pResult").innerHTML = "it is pdf"
+    } else {
+        document.getElementById("pResult").innerHTML = "it  is not pdf"
+    }
+14.Secured Websitecheck:(//http)
+A secured website checker is used to check whether a website URL uses:
+if (stringName.startsWith("http")) {
+        document.getElementById("pResult").innerHTML = "It is securedsite";
+    } else {
+        document.getElementById("pResult").innerHTML = "It is not a securedsite"
+    }
+15.Dot Repeat:
+In JavaScript, repeat() is a string function used to repeat a string multiple times.
+document.getElementById("pResult").innerHTML = inputTest.repeat(repeatTest);
+16.Dot Replace:
+In JavaScript, replace() is a string function used to replace one word or character with another word or character.
+document.getElementById("pResult").innerHTML=sentences.replaceAll(word,replaceWord);
 
-
+**Arrays**
+In JavaScript, an Array is used to store multiple values in a single variable.
+Common Array Functions
+Function   - Purpose
+push()     - Add value
+pop()	     - Remove last value
+shift()    - Remove first value
+unshift()  - Add first value
