@@ -9,6 +9,6 @@ function onClickArrayOfArray(){
     debugger;
    var inputIndex = Number(document.getElementById("txtInputIndex").value);
    var secondIndex = Number(document.getElementById("txtSecondIndex").value);
-   document.getElementById("pResult").innerHTML=nandGate[inputIndex][secondIndex] ;
-
+//    document.getElementById("pResult").innerHTML=nandGate[inputIndex];
+    document.getElementById("pResult").innerHTML=nandGate[inputIndex][secondIndex];
 }
