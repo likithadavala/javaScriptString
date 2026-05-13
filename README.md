@@ -119,6 +119,40 @@ In JavaScript, an Array is used to store multiple values in a single variable.
 Common Array Functions
 Function   - Purpose
 push()     - Add value
-pop()	     - Remove last value
+pop()	   - Remove last value
 shift()    - Remove first value
 unshift()  - Add first value
+
+**Introduction to Array**
+An array is a collection of elements stored in a contiguous memory location and accessed using an index.
+pResult              : document.getElementById("pResult").innerHTML = flowers[inputName];
+pResultlength        : document.getElementById("pResultlength").innerHTML = flowers.length;
+pResultIndex         : document.getElementById("pResultIndex").innerHTML = flowers.length - 1;
+pResultLastCharacte  : document.getElementById("pResultLastCharacter").innerHTML = flowers[flowers.length - 1];
+pResultFirstCharacte : document.getElementById("pResultFirstCharacter").innerHTML = flowers[0];
+
+**Add to array**
+Adding to an array means inserting a new element into the array.
+Arrays store multiple values, and sometimes we need to add more values later.
+Here, we can use(.push)
+flowers.push(inputName);
+    document.getElementById("pResult").innerHTML = flowers;
+
+**Muttable Concept**
+Mutable means changeable.
+If we can change the value after creating it, it is called mutable.
+document.getElementById("pResult").innerHTML = numbers;
+    var index = document.getElementById("txtIndex").value;
+    var changeNumber = document.getElementById("txtChangeNumber").value;
+
+    numbers[index] = changeNumber;
+    document.getElementById("pResultMutable").innerHTML = numbers;
+}
+
+
+
+
+
+
+
+
