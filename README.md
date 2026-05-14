@@ -19,6 +19,7 @@ We use document.getElementById() to:
 * Connect JavaScript with HTML
 * Access specific elements easily
 * Make webpages interactive and dynamic
+
 **1. Primitive Data Types**
 
 In HTML and JavaScript/CSS, Inline, Internal, and External are ways to write code.
