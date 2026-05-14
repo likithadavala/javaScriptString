@@ -7,6 +7,4 @@ function onClickCheckIndex() {
     document.getElementById("pResultIndex").innerHTML = flowers.length - 1;
     document.getElementById("pResultLastCharacter").innerHTML = flowers[flowers.length - 1];
     document.getElementById("pResultFirstCharacter").innerHTML = flowers[0];
-
-
 }
