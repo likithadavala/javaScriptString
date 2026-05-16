@@ -42,6 +42,7 @@ Stores numbers (integer or decimal).
 8.Largest of two Biggest numbers
 
 **2. Strings**
+Collection of characters,collection of string and collection of symbols.
 1.Strings are for storing text
 2.Strings are written with quotes
 A String in JavaScript is a data type used to store text or characters.
@@ -116,6 +117,7 @@ In JavaScript, replace() is a string function used to replace one word or charac
 document.getElementById("pResult").innerHTML=sentences.replaceAll(word,replaceWord);
 
 **Arrays**
+collection of elements ,collection of numbers,collection of symbols.
 In JavaScript, an Array is used to store multiple values in a single variable.
 Common Array Functions
 Function   - Purpose
